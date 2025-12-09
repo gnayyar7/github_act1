@@ -11,7 +11,7 @@ jobs:
  
   Logintodockerhub-Dev:
     runs-on: ubuntu-latest
-    environment: Dev
+    environment: dev
     steps:
       - uses: actions/checkout@v3
       - name: Docker Login (Dev)
@@ -23,7 +23,7 @@ jobs:
  
   Logintodockerhub-QA:
     runs-on: ubuntu-latest
-    environment: Qa
+    environment: qa
     steps:
       - uses: actions/checkout@v3
       - name: Docker Login (QA)
